@@ -10,8 +10,12 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html, body{
 	font-family: 'Roboto Condensed', sans-serif;
-	background:#3f444e;
+	/*background:#3f444e;*/
+	background-image: url(../images/fondo1.jpg); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
 }
+
 body a{
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -19,6 +23,18 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
+.fooster p{
+	text-align: center;
+	color: #fff;
+	font-size: 13px;
+	margin-top: 1em;
+}
+
+.fooster p a{
+	color:#d8232a;
+}
+
 .container_wrap{
 	padding:5em 0;
 }
@@ -663,7 +679,7 @@ padding-right: 0;
 padding: 0;
 }
 .col_1{
-	margin-top:2em;
+	margin-top:0em;
 }
 .col_2{
 	background:#fff;
@@ -708,7 +724,7 @@ i.icon7{
 .video iframe{
 	min-height:225px;
 	padding:0 15px;
-	margin-top:2em;
+	margin-bottom: 2em;
 }
 .row_5{
 	margin-top:2em;
@@ -751,7 +767,8 @@ background-color:#d8232a;
 padding: 0;
 }
 #footer-widgets {
-background-color:#262C38;
+/*background-color:#262C38;*/
+background-color:#06070D;
 }
 #footer-widgets {
 float: left;
@@ -995,12 +1012,9 @@ text-transform: uppercase;
 background: #d8232a;
 }
 .btn1 span {
-width: 20px;
-height: 20px;
-background: url(../images/img_sprite.png) -85px -49px;
 display: inline-block;
 vertical-align: middle;
-margin-right: 2%;
+
 text-decoration: none;
 }
 a.btn1:hover{
@@ -1087,7 +1101,7 @@ padding-left: 15px;
 	display: block;
     width: 20px;
     height: 20px;
-    background: url('../images/star.png') 0 1px;
+    background: url('../images/images.jpg') 0 20px;
     float:left;
     font-family: FontAwesome;
     font-style: normal;
@@ -1110,7 +1124,7 @@ padding-left: 15px;
 }
 .sky-form .rating input:checked ~ label {
 	color: #2da5da;	
-	 background: url('../images/star.png') 0 -16px;
+	 background: url('../images/images.jpg') 0 -16px;
 	display: -webkit-box;
 }
 p.movie_option {
@@ -1212,7 +1226,7 @@ padding: 10px;
 resize: none;
 }
 .form-submit1 input[type="submit"] {
-color: #FFF;
+color: #fff;
 font-size: 1.1em;
 font-weight: normal;
 padding: 10px 20px;
@@ -1299,7 +1313,7 @@ text-transform: uppercase;
 	outline:none;
 }
 .login-right input[type="submit"]:hover{
-	background:#000;
+	background:#3f444e;
 }
 a.forgot {
 	font-size: 0.85em;
@@ -1415,6 +1429,13 @@ p.cart {
 .register-but{
 	
 }
+
+.botonPersonalizado{
+	
+	background-color: #000;
+	
+}
+
 .register-but form input[type="submit"] {
 	background: #df1f26;
 color: #FFF;
