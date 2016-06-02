@@ -8,13 +8,31 @@ h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
 p {margin: 0;}
+
 html, body{
 	font-family: 'Roboto Condensed', sans-serif;
-	/*background:#3f444e;*/
+	background:#3f444e;
 	background-image: url(../images/fondo1.jpg); 
 	background-repeat: no-repeat; 
-	background-size: cover; 
+	background-size: cover;
+	
 }
+/*#video_background { 
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px; 
+	min-width: 100%; 
+	min-height: 100%; 
+	width: auto; 
+	height: auto; 
+	z-index: -100; 
+	visibility: visible;
+	-ms-transform: translateX(100%) translateY(100%);
+    -moz-transform: translateX(100%) translateY(1000%);
+    -webkit-transform: translateX(10%) translateY(1000%);
+    transform: translateX(0%) translateY(15%);
+}*/
+
 
 body a{
 	transition:0.5s all;
@@ -562,7 +580,8 @@ i.icon3{
 	background: url(../images/img_sprite.png) -60px -42px;
 }
 .content{
-	background:#edeff0;
+	/*background:#edeff0;*/
+	background:#D3D4D4;
 	padding:2em;
 }
 .search {
@@ -1004,7 +1023,7 @@ margin-top: 3em;
 .btn1 {
 padding:12px 20px;
 outline: none;
-
+width=100%;
 font-size: 1.2em;
 color:#fff;
 text-decoration: none;
@@ -1247,14 +1266,14 @@ outline: none;
 }
 /*--login--*/
 .login-left h3, .login-right h3 {
-	color:#000;
+	color:#000000;
 	font-size: 1.5em;
 	
 	
 	padding-bottom: 0.5em;
 }
 .login-left p, .login-right p {
-	color:#999;
+	color:#000000;
 	display: block;
 	font-size:1em;
 	margin: 0 0 1.5em 0;
@@ -1284,7 +1303,7 @@ text-transform: uppercase;
 	padding: 0 0 1.5em 0;
 }
 .login-right span {
-	color: #999;
+	color: #000000;
 	font-size:0.95em;
 	
 	display: block;
@@ -1345,8 +1364,8 @@ p.cart {
 	margin: 10px 0;
 }
 .register-top-grid span, .register-bottom-grid span {
-	color:#999;
-	
+	/*color:#999;*/
+	color:#000000;
 	display: block;
 	
 	font-size:1em;
